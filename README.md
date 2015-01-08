@@ -1,11 +1,11 @@
-picontroller
+pi-motor-controls
 ============
 
 ## Synopsis
 
 A way to control the <a href="http://4tronix.co.uk/blog/?p=50" target=blank>4tronix Initio</a> or other raspberry Pi Motors.
 
-It works by starting a node server on the pi, then it serves a web page which contains a very simple touch pad which can be used to run the motors, back, forward, left, right...
+It works by starting a node server on the pi, then it serves a web page which contains a very simple touch pad which interacts with the pi gpio pins via node.js and socket.io. Can be used to run the motors, back, forward, left, right...
 
 ##IMPORTANT
 **THIS PROJECT IS SET UP TO MANIPULATE GPIO PINS: 24, 26, 19, 21 (the motor pins on the initio)**
